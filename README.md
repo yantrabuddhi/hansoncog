@@ -11,6 +11,10 @@ full performance pipeline and infrastructure:
 * Behavior tree, for scripting performaces.
 * Motor control ROS nodes, for controlling the physical robot.
 
+## Prerequisites
+
+ * ** Only Ubuntu 14.04 supported **
+
 ## Install and Setup
 
 Go to scripts directory
