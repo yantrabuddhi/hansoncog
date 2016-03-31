@@ -13,7 +13,7 @@ full performance pipeline and infrastructure:
 
 ## Prerequisites
 
- * ** Only Ubuntu 14.04 supported **
+ * **Only Ubuntu 14.04 supported**
 
 ## Install and Setup
 
