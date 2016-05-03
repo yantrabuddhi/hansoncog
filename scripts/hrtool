@@ -169,7 +169,7 @@ do_build_hr() {
     if [[ ! -d .catkin_tools ]]; then
         catkin init
     fi
-    catkin clean
+    catkin clean -y || catkin clean -a
     catkin build --force-cmake -j$(nproc) --no-status
     TARGET=$HR_WORKSPACE/$PROJECT/devel/lib/python2.7/dist-packages/
     pip install -t $TARGET $HR_WORKSPACE/$PROJECT/src/hardware/pololu-motors --upgrade --no-deps
